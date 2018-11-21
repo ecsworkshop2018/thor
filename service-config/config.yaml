@@ -1,0 +1,7 @@
+name: "thor"
+cpu: 256
+memory: 512
+context: "/thor"
+health_check: "/thor/actuator/health"
+min_instances: 1
+max_instances: 2
